@@ -1,0 +1,37 @@
+// First "page" an Sidebar
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #ffe5d9;
+}
+
+body {
+  // margin: 0;
+  height: 100vh;
+}
+
+header {
+  box-shadow: 0px 9px 18px 0px rgba(157, 129, 137, 1);
+  // height: 100vh;
+
+  .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 300px;
+    // border-radius: 50%;
+    border-radius: 200px 0px 200px 200px;
+    border: 9px groove rgb(244, 172, 183);
+  }
+
+  .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
