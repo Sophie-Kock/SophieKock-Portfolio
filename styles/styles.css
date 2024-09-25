@@ -9,8 +9,13 @@ body {
   height: 100vh;
 }
 
+i {
+  font-size: x-large;
+}
+
 header {
   box-shadow: 0px 9px 18px 0px rgb(157, 129, 137);
+  padding-top: 200px;
 }
 header .pic {
   display: flex;
@@ -30,7 +35,7 @@ header .info {
   margin-top: 20px;
 }
 header .info .contact-button {
-  background-color: #9d8189;
+  background-color: #9D8189;
   height: 50px;
   width: 200px;
   margin-bottom: 20px;
@@ -39,7 +44,7 @@ header .info .contact-button {
   border: #f4acb7 solid 2px;
 }
 header .info .contact-button i {
-  background-color: #9d8189;
+  background-color: #9D8189;
   color: #ffe5d9;
   padding: 8px;
 }
@@ -49,4 +54,28 @@ header .contact-button:hover {
 }
 header .contact-button:hover i {
   background-color: #f4acb7;
+}
+header aside {
+  align-items: center;
+  border-radius: 0 50px 50px 0;
+  box-shadow: 0 4px 10px rgb(157, 129, 137);
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 300px;
+  width: 30px;
+}
+header aside ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: -35px;
+  height: 250px;
+}
+header aside li {
+  list-style: none;
 }
