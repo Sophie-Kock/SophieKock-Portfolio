@@ -1,4 +1,4 @@
-// First "page" an Sidebar
+// First "page" and Sidebar
 
 * {
   font-family: "Roboto", sans-serif;
@@ -52,4 +52,15 @@ header {
       }
     }
   }
+
+  .contact-button:hover{
+    cursor: pointer;
+    background-color: #f4acb7;
+
+    i{
+      background-color: #f4acb7;
+    }
+  }
 }
+
+

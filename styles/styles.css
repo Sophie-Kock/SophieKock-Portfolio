@@ -43,3 +43,10 @@ header .info .contact-button i {
   color: #ffe5d9;
   padding: 8px;
 }
+header .contact-button:hover {
+  cursor: pointer;
+  background-color: #f4acb7;
+}
+header .contact-button:hover i {
+  background-color: #f4acb7;
+}
