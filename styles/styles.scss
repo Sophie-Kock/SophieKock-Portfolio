@@ -1,12 +1,14 @@
 // First "page" and Sidebar
 
 $background: #ffe5d9;
+$background-second:#ffcdb2;
 $text: #6d6875;
 $text-light: #9d8189;
 $primary: #f4acb7;
 $primary-darker: #b5838d;
 $secondary: #ffcad4;
 $accent: #d8e2dc;
+$boxshadow:#9d8189;
 
 * {
   font-family: "Roboto", sans-serif;
@@ -21,7 +23,7 @@ body {
 }
 
 header {
-  box-shadow: 0px 9px 18px 0px rgba(157, 129, 137, 1);
+  box-shadow: 0px 9px 18px 0px $boxshadow;
   padding-top: 200px;
   padding-bottom: 150px;
 
@@ -128,7 +130,30 @@ header {
 // alle Teile bis zum footer
 
 main{
-  box-shadow: 0px 9px 18px 0px rgba(157, 129, 137, 1);
-  padding-top: 200px;
-  padding-bottom: 150px;
+  box-shadow: 0px 9px 18px 0px #9d8189;
+  // margin-top: 3px;
+  
+  .about-me{
+  // background-color: $background-second;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    text-align: center;
+  
+    
+    .me-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 35rem ;
+    gap: 20px;
+    }
+
+    p{
+      text-align: left;
+    }
+
+  
+  }
+
 }
