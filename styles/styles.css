@@ -49,6 +49,8 @@ header .info .contact-button {
   color: #ffe5d9;
   border-radius: 5px;
   border: #f4acb7 solid 2px;
+  font-weight: 700;
+  font-size: larger;
 }
 header .info .contact-button i {
   background-color: #9d8189;
