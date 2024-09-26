@@ -1,14 +1,6 @@
-// First "page" and Sidebar
 
-$background: #ffe5d9;
-$background-second: #ffcdb2;
-$text: #6d6875;
-$text-light: #9d8189;
-$primary: #f4acb7;
-$primary-darker: #b5838d;
-$secondary: #ffcad4;
-$accent: #d8e2dc;
-$boxshadow: #9d8189;
+
+@import "./variables.scss";
 
 * {
   font-family: "Roboto", sans-serif;
@@ -23,6 +15,7 @@ body {
   height: 100vh;
 }
 
+// First "page" and Sidebar
 header {
   // box-shadow: 0px 9px 18px 0px $boxshadow;
   padding-top: 200px;
@@ -36,8 +29,8 @@ header {
 
   img {
     height: 300px;
-    border-radius: 200px 0px 200px 200px;
     border: 9px groove rgb(244, 172, 183);
+    border-radius: 200px 0px 200px 200px;
   }
 
   .info {
@@ -61,22 +54,22 @@ header {
     }
 
     .contact-button {
-      background-color: $text-light;
+      font-weight: 700;
+      font-size: larger;
       height: 50px;
       width: 200px;
       margin-bottom: 20px;
-      color: $background;
-      border-radius: 5px;
       border: $primary solid 2px;
-      font-weight: 700;
-      font-size: larger;
+      border-radius: 5px;
+      color: $background;
+      background-color: $text-light;
 
       // icon in button
       i {
-        background-color: $text-light;
-        color: $background;
-        padding: 8px;
         font-size: larger;
+        padding: 8px;
+        color: $background;
+        background-color: $text-light;
       }
     }
   }
@@ -93,25 +86,25 @@ header {
   // sidebar->
 
   aside {
-    align-items: center;
-    border-radius: 0 50px 50px 0;
-    box-shadow: 0 4px 10px rgb(157, 129, 137, 1);
     display: flex;
     justify-content: center;
-    left: 0;
-    padding: 10px;
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
+    align-items: center;
     height: 300px;
     width: 30px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    padding: 10px;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 4px 10px rgb(157, 129, 137, 1);
+    transform: translateY(-50%);
 
     ul {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      margin-left: -35px;
       height: 250px;
+      margin-left: -35px;
     }
 
     li {
@@ -137,12 +130,12 @@ main {
 
   .about-me {
     // background-color: $background-second;
-    padding-top: 180px;
-    padding-bottom: 100px;
-    text-align: center;
-    height: 80vh;
     display: flex;
     justify-content: center;
+    text-align: center;
+    height: 80vh;
+    padding-top: 180px;
+    padding-bottom: 100px;
     box-shadow: 0px 9px 18px 0px $boxshadow;
     // border: solid red 3px;
 
