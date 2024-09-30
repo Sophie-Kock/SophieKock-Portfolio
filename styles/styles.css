@@ -42,19 +42,19 @@ header .info .social-icons i:hover {
   transform: scale(1.5);
 }
 header .info .contact-button {
-  font-weight: 700;
-  font-size: larger;
   height: 50px;
   width: 200px;
   margin-bottom: 20px;
   border: #f4acb7 solid 2px;
   border-radius: 5px;
+  font-size: larger;
+  font-weight: 700;
   color: #ffe5d9;
   background-color: #9d8189;
 }
 header .info .contact-button i {
-  font-size: larger;
   padding: 8px;
+  font-size: larger;
   color: #ffe5d9;
   background-color: #9d8189;
 }

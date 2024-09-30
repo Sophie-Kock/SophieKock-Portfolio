@@ -52,20 +52,20 @@ header {
     }
 
     .contact-button {
-      font-weight: 700;
-      font-size: larger;
       height: 50px;
       width: 200px;
       margin-bottom: 20px;
       border: $primary solid 2px;
       border-radius: 5px;
+      font-size: larger;
+      font-weight: 700;
       color: $background;
       background-color: $text-light;
 
       // icon in button
       i {
-        font-size: larger;
         padding: 8px;
+        font-size: larger;
         color: $background;
         background-color: $text-light;
       }
